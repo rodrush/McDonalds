@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: rgb(41, 41, 41);
+}
+button {
+  font-size: 15px;
+  line-height: 20px;
+}
+.logo {
+  position: relative;
+  margin-left: 5.6rem;
+  margin-top: 1.1rem;
+}
+.lang {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  margin-top: -6.5rem;
+  margin-left: 13.6rem;
+  line-height: 16px;
+}
+.language {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 13px;
+}
+.language li,
+.ourmenu li {
+  list-style-type: none;
+  padding-left: 2.3rem;
+}
+.language :nth-child(4) {
+  padding-left: 16rem;
+}
+.language a,
+.ourmenu a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+.fa-search {
+  margin-right: 0.5rem;
+  font-size: 17px;
+}
+.fa-map-marker-alt {
+  margin-right: 0.5rem;
+  font-size: 17px;
+  color: rgb(219, 0, 7);
+}
+.lang button {
+  cursor: pointer;
+  background-color: rgb(255, 188, 13);
+  border: none;
+  border-radius: 5px;
+  width: 125px;
+  height: 39px;
+  margin-left: 1.4rem;
+  margin-top: -0.6rem;
+}
+
+.ourmenu {
+  position: absolute;
+  margin-top: -2.6rem;
+  margin-left: 13.6rem;
+  line-height: 16px;
+}
+.ourmenu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  font-weight: 400;
+}
+
+.jumbotron {
+  width: 1168px;
+  height: 517px;
+  background: url("../images/one.jpg") center center no-repeat;
+  object-fit: cover;
+  margin-top: 3.2rem;
+  margin-left: 5.7rem;
+  position: relative;
+  border-radius: 5px;
+}
+.balvin {
+  position: absolute;
+  width: 392px;
+  height: 397px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 3.1rem;
+  margin-top: 4.7rem;
+  border-radius: 5px;
+  padding: 1.4rem 2rem 0 2rem;
+}
+.balvin h1 {
+  font-size: 34px;
+  line-height: 46px;
+  font-weight: 700;
+}
+.top {
+  font-size: 16px;
+  line-height: 24px;
+}
+.balvin button {
+  width: 135px;
+  height: 50px;
+  background-color: rgb(255, 188, 13);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.below {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.deliver {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 6.3rem;
+  margin-left: 6.7rem;
+  margin-bottom: 7rem;
+}
+.deliver img {
+  width: 750px;
+  height: 331px;
+}
+.deliver2 {
+  margin: 1rem 6rem 0 2rem;
+}
+.deliver2 h1 {
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 1rem;
+}
+.normal {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 1rem;
+}
+.mini {
+  font-size: 10px;
+  line-height: 14px;
+  margin-bottom: 2rem;
+}
+.deliver2 button {
+  width: 218px;
+  height: 47px;
+  background-color: rgb(255, 188, 13);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.offer {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 6.7rem;
+  margin-bottom: 7rem;
+}
+.offer img {
+  width: 744px;
+  height: 334px;
+  margin-right: 6rem;
+}
+.offerarticle {
+  margin-top: 1rem;
+}
+.offerarticle h1 {
+  font-size: 33px;
+  line-height: 43px;
+  margin-bottom: 1rem;
+}
+.normal1 {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 1rem;
+}
+.mini1 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-bottom: 2rem;
+}
+.offer button {
+  background-color: rgb(255, 188, 13);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 218px;
+  height: 47px;
+}
+
+.scholarship {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 6.7rem;
+  margin-bottom: 7rem;
+}
+.scholarship img {
+  width: 747px;
+  height: 333px;
+}
+.shiparticle {
+  margin: 1rem 6rem 0 2rem;
+}
+.shiparticle h1 {
+  font-size: 33px;
+  line-height: 43px;
+  margin-bottom: 1rem;
+}
+.shiparticle a {
+  color: rgb(59, 107, 174);
+}
+.normal2 {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 2rem;
+}
+.shiparticle button {
+  background-color: rgb(255, 188, 13);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 180px;
+  height: 47px;
+}
+
+.various {
+  margin-left: 6.7rem;
+  margin-right: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.8rem;
+}
+.various img {
+  margin-bottom: 1rem;
+}
+.various h1 {
+  font-size: 33px;
+  line-height: 43px;
+  margin-bottom: 1rem;
+}
+.normal3 {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 2rem;
+}
+.mini3 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-bottom: 2rem;
+}
+.various button {
+  background-color: rgb(255, 188, 13);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 47px;
+}
+.one button {
+  width: 178px;
+}
+.two button {
+  width: 255px;
+}
+.three button {
+  width: 178px;
+}
+
+.others {
+  margin-top: 7rem;
+  margin-left: 6.7rem;
+  margin-right: 6rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 14.4px;
+  line-height: 22px;
+}
+.others li {
+  list-style: none;
+  padding-bottom: 0.6rem;
+}
+.others a {
+  text-decoration: none;
+}
+.others ul {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.others ul :nth-child(1) {
+  padding-bottom: 1.8rem;
+}
+
+.social {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 6.7rem;
+  margin-top: 2rem;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon6 {
+  height: 2.2rem;
+  width: 2.2rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(41, 41, 41, 0.1);
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.icon4,
+.icon5 {
+  height: 2.2rem;
+  width: 2.2rem;
+  padding-left: 0.6rem;
+  padding-top: 0.3rem;
+  border-radius: 50%;
+  border: 1px solid rgb(41, 41, 41, 0.1);
+  background-color: rgb(253, 253, 253);
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.icon {
+  color: rgb(0, 0, 0);
+}
+
+.store {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  margin-left: 62rem;
+  margin-top: -7rem;
+}
+.store img {
+  cursor: pointer;
+}
+.google {
+  width: 142px;
+  height: 58px;
+}
+.bottom {
+  opacity: 0.2;
+  height: 0.1px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-left: 6rem;
+}
+.others1 {
+  font-size: 14px;
+}
+.others1 li {
+  list-style: none;
+  padding-left: 0.5rem;
+  width: 23%;
+  float: left;
+}
+.others1 a {
+  text-decoration: none;
+}
+.logo2 {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.logo2 img {
+  width: 32px;
+  height: 32px;
+  margin-top: -0.2rem;
+}
